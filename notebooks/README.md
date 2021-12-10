@@ -5,7 +5,7 @@
 | Fine Tune on Mozilla Turkish Dataset             | <a href="https://colab.research.google.com/github/patrickvonplaten/notebooks/blob/master/Fine_Tune_XLSR_Wav2Vec2_on_Turkish_ASR_with_%F0%9F%A4%97_Transformers.ipynb"><img src="https://img.shields.io/static/v1?label=Colab&message=Fine-tuning Example&logo=Google%20Colab&color=f9ab00"></a> |
 | Sample Code for Other Dataset And other Language | [github_link](https://github.com/m3hrdadfi/notebooks/)       |
 
-
+The sample .ipynb file is available here is for mehrdad and this is the link : https://github.com/m3hrdadfi/notebooks/blob/main/Fine_Tune_XLSR_Wav2Vec2_on_Persian_ShEMO_ASR_with_%F0%9F%A4%97_Transformers_ipynb.ipynb
 
 
 
