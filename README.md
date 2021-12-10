@@ -13,6 +13,11 @@ The original model can be found under https://github.com/pytorch/fairseq/tree/ma
 
 Fine-tuned [facebook/wav2vec2-large-xlsr-53](https://huggingface.co/facebook/wav2vec2-large-xlsr-53) in Persian (Farsi) using [Common Voice](https://huggingface.co/datasets/common_voice) plus Our own created Dataset(1/3 of total dataset). When using this model, make sure that your speech input is sampled at 16kHz.
 
+![model image](https://github.com/Hamtech-ai/wav2vec2-fa/blob/main/assets/xlsr_wav2vec2.png)
+*Wav2vec 2.0 Image*
+
+
+
 ## Evaluation: 🌡️
 We have evaluated the model on private dataset with different type of audios (unfortunately the dataset for testing and validation is not publicly available but to see a sample of the dataset [check this link)](https://github.com/shenasa-ai/speech2text#part-of-our-dataset-v01--) :
 
