@@ -1,4 +1,9 @@
 # wav2vec 2.0 multilingual ( Finetued )
+![model image](https://github.com/Hamtech-ai/wav2vec2-fa/blob/main/assets/xlsr_wav2vec2.png)
+*Wav2vec 2.0 Image*
+
+
+
 The base model pretrained on 16kHz sampled speech audio. When using the model make sure that your speech input is also sampled at 16Khz. Note that this model should be fine-tuned on a downstream task, like Automatic Speech Recognition. Check out [this blog](https://huggingface.co/blog/fine-tune-wav2vec2-english) for more information.
 
 [Paper](https://arxiv.org/abs/2006.13979)
@@ -13,8 +18,7 @@ The original model can be found under https://github.com/pytorch/fairseq/tree/ma
 
 Fine-tuned [facebook/wav2vec2-large-xlsr-53](https://huggingface.co/facebook/wav2vec2-large-xlsr-53) in Persian (Farsi) using [Common Voice](https://huggingface.co/datasets/common_voice) plus Our own created Dataset(1/3 of total dataset). When using this model, make sure that your speech input is sampled at 16kHz.
 
-![model image](https://github.com/Hamtech-ai/wav2vec2-fa/blob/main/assets/xlsr_wav2vec2.png)
-*Wav2vec 2.0 Image*
+
 
 
 
