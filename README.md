@@ -1,4 +1,4 @@
-# wav2vec 2.0 multilingual ( Finetued )
+# wav2vec 2.0 fa Finetued 
 ![model image](https://github.com/Hamtech-ai/wav2vec2-fa/blob/main/assets/xlsr_wav2vec2.png)
 *Wav2vec 2.0 Image*
 
@@ -8,15 +8,11 @@ The base model pretrained on 16kHz sampled speech audio. When using the model ma
 
 [Paper](https://arxiv.org/abs/2006.13979)
 
-Authors: Alexis Conneau, Alexei Baevski, Ronan Collobert, Abdelrahman Mohamed, Michael Auli
-
-**Abstract** This paper presents XLSR which learns cross-lingual speech representations by pretraining a single model from the raw waveform of speech in multiple languages. We build on wav2vec 2.0 which is trained by solving a contrastive task over masked latent speech representations and jointly learns a quantization of the latents shared across languages. The resulting model is fine-tuned on labeled data and experiments show that cross-lingual pretraining significantly outperforms monolingual pretraining. On the CommonVoice benchmark, XLSR shows a relative phoneme error rate reduction of 72% compared to the best known results. On BABEL, our approach improves word error rate by 16% relative compared to a comparable system. Our approach enables a single multilingual speech recognition model which is competitive to strong individual models. Analysis shows that the latent discrete speech representations are shared across languages with increased sharing for related languages. We hope to catalyze research in low-resource speech understanding by releasing XLSR-53, a large model pretrained in 53 languages.
-
 The original model can be found under https://github.com/pytorch/fairseq/tree/master/examples/wav2vec#wav2vec-20.
 
 
 
-Fine-tuned [facebook/wav2vec2-large-xlsr-53](https://huggingface.co/facebook/wav2vec2-large-xlsr-53) in Persian (Farsi) using [Common Voice](https://huggingface.co/datasets/common_voice) plus Our own created Dataset(1/3 of total dataset). When using this model, make sure that your speech input is sampled at 16kHz.
+Fine-tuned [facebook/wav2vec2-large-xlsr-53](https://huggingface.co/facebook/wav2vec2-large-xlsr-53) in Persian (Farsi) using [Common Voice](https://huggingface.co/datasets/common_voice) plus Our own created Dataset(1/3 of high quality dataset). When using this model, make sure that your speech input is sampled at 16kHz.
 
 
 
